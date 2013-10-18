@@ -3,7 +3,7 @@
 # Use of this source code is governed by a MIT-license
 # that can be found in the LICENSE file.
 
-# Name    : Process queue for single-thread high cpu usage processes.
+# Name    : Process queue for high CPU/RAM/time usage processes.
 #           It control the number of running processes to avoid a
 # 			large number (> number of CPU threads number) of processes
 #			running concurrently, which is inefficient due to processes switch.
@@ -19,7 +19,7 @@ use threads;
 my $default_queue_file = "queue.txt";
 my $usage              = <<"USAGE";
 ===============================================================================
-Name   : Process queue for single-thread high cpu usage processes
+Name   : Process queue for high CPU/RAM/time usage processes.
 Contact: Wei Shen <shenwei356#gmail.com>
 Usage  : $0 queue_file
 a sample queue file "$default_queue_file" are given. 

@@ -1,0 +1,11 @@
+# max number of threads running concurrently
+MAX_THREADS_NUM = 4
+
+# jobs
+perl sample_job.pl 1000
+perl sample_job.pl 800
+perl sample_job.pl 400
+perl sample_job.pl 300
+perl sample_job.pl 600
+perl sample_job.pl 300
+
