@@ -11,7 +11,7 @@ The first time you running process_queue.pl, a sample queue file "queue.txt" wil
 
 You can edit the max number of threads running concurrently, and add a list of single-thread high cpu usage jobs. 
 
-For example:
+queue.txt:
 
     # max number of threads running concurrently
     MAX_THREADS_NUM = 4
