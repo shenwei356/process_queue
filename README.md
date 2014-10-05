@@ -1,6 +1,8 @@
 Process Queue
 =============
 
+**Please use [crun](https://github.com/shenwei356/crun)**.
+
 Process queue for high CPU/RAM/time usage processes.
 
 If you want to run a list of jobs which use high CPU/RAM or cost long time, a process queue is a good choice to run those jobs.
